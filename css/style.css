@@ -86,9 +86,12 @@ input[name="search"] {
 #buttons {
   margin: 28px auto 0 auto;
   width: fit-content;
+  display: block;
+  text-align: center;
 }
 
 #buttons > button {
+  display: inline-block;
   background-color: rgba(0, 0, 0, 0.03);
   padding: 8px 18px;
   font-size: 0.9em;
@@ -158,12 +161,7 @@ footer > div:last-child > div:last-child > a {
     width: 80%;
   }
 
-  footer > div:last-child > div {
-    text-align: center;
-    display: block;
-  }
-
-  footer > div:last-child > div > a {
-    white-space: nowrap;
+  footer {
+    display: none;
   }
 }
