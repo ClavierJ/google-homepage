@@ -163,7 +163,7 @@ footer > div:last-child > div:last-child > a {
     display: block;
   }
 
-  footer > div:last-child > div >a {
+  footer > div:last-child > div > a {
     white-space: nowrap;
   }
 }
