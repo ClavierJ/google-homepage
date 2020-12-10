@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 nav {
   width: 100%;
@@ -135,15 +136,14 @@ footer > div:last-child {
   justify-content: space-between;
 }
 
-footer > div:last-child  > div> a {
+footer > div:last-child > div > a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.55);
 }
 
-footer > div:last-child  > div> a:hover {
-    text-decoration: underline;
-  }
-  
+footer > div:last-child > div > a:hover {
+  text-decoration: underline;
+}
 
 footer > div:last-child > div:first-child > a {
   margin-right: 20px;
@@ -151,4 +151,19 @@ footer > div:last-child > div:first-child > a {
 
 footer > div:last-child > div:last-child > a {
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #searchbox {
+    width: 80%;
+  }
+
+  footer > div:last-child > div {
+    text-align: center;
+    display: block;
+  }
+
+  footer > div:last-child > div >a {
+    white-space: nowrap;
+  }
 }
