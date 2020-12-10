@@ -1,0 +1,154 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+nav > a {
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+#apps {
+  width: 17px;
+  height: auto;
+  opacity: 0.6;
+}
+
+#apps:hover {
+  opacity: 0.95;
+}
+
+#usr {
+  border-radius: 50%;
+  width: 32px;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  width: 100%;
+}
+
+main > img {
+  width: 272px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 109px;
+}
+
+#searchbox {
+  width: 580px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 45px;
+  margin: 45px auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+#searchbox > img {
+  width: 20px;
+  height: auto;
+  margin: 0 15px;
+}
+
+#searchbox:hover {
+  -webkit-box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+input[name="search"] {
+  border: none;
+  width: 100%;
+  margin-right: 15px;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+}
+
+#buttons {
+  margin: 28px auto 0 auto;
+  width: fit-content;
+}
+
+#buttons > button {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 8px 18px;
+  font-size: 0.9em;
+  border-radius: 3px;
+  margin: 0 4px;
+  color: rgba(0, 0, 0, 0.75);
+  border: 1px solid transparent;
+}
+
+#buttons > button:hover {
+  -webkit-box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#lang {
+  width: fit-content;
+  margin: 25px auto 0 auto;
+  font-size: 0.82em;
+}
+
+#lang > a {
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+footer > div {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 12px 30px;
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 0.9em;
+}
+
+footer > div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > div:last-child  > div> a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+footer > div:last-child  > div> a:hover {
+    text-decoration: underline;
+  }
+  
+
+footer > div:last-child > div:first-child > a {
+  margin-right: 20px;
+}
+
+footer > div:last-child > div:last-child > a {
+  margin-left: 20px;
+}
